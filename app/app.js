@@ -1,5 +1,3 @@
 (function(angular){
-  angular.module('app', ['ngAnimate, fx.animations'])
-
-
+  angular.module('app', ['app.notes']);
 }(angular));
