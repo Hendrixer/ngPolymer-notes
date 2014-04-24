@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'ui.router' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json ang-poly@0.0.0 No repository field.
+5 warn package.json ang-poly@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'ui.router', null ]
+8 verbose cache add name=undefined spec="ui.router" args=["ui.router",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'ui.router',
+9 verbose parsed url   path: 'ui.router',
+9 verbose parsed url   href: 'ui.router' }
+10 silly lockFile d5924ed8-ui-router ui.router
+11 verbose lock ui.router /Users/Hendrixer/.npm/d5924ed8-ui-router.lock
+12 silly lockFile d5924ed8-ui-router ui.router
+13 silly lockFile d5924ed8-ui-router ui.router
+14 verbose addNamed [ 'ui.router', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 37afa57f-ui-router ui.router@
+17 verbose lock ui.router@ /Users/Hendrixer/.npm/37afa57f-ui-router.lock
+18 silly addNameRange { name: 'ui.router', range: '*', hasData: false }
+19 verbose url raw ui.router
+20 verbose url resolving [ 'https://registry.npmjs.org/', './ui.router' ]
+21 verbose url resolved https://registry.npmjs.org/ui.router
+22 info trying registry request attempt 1 at 19:06:45
+23 http GET https://registry.npmjs.org/ui.router
+24 http 404 https://registry.npmjs.org/ui.router
+25 silly registry.get cb [ 404,
+25 silly registry.get   { date: 'Thu, 24 Apr 2014 02:06:45 GMT',
+25 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'cache-control': 'max-age=0',
+25 silly registry.get     'content-length': '52',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     age: '0',
+25 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-lax1422-LAX',
+25 silly registry.get     'x-cache': 'MISS, MISS',
+25 silly registry.get     'x-cache-hits': '0, 0',
+25 silly registry.get     'x-timer': 'S1398305205.739568710,VS0,VS33,VE118,VE149',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 silly lockFile 37afa57f-ui-router ui.router@
+27 silly lockFile 37afa57f-ui-router ui.router@
+28 error 404 'ui.router' is not in the npm registry.
+28 error 404 You should bug the author to publish it
+28 error 404 It was specified as a dependency of 'ang-poly'
+28 error 404
+28 error 404 Note that you can also install from a
+28 error 404 tarball, folder, or http url, or git url.
+29 error System Darwin 13.1.0
+30 error command "node" "/usr/local/bin/npm" "install" "--save" "ui.router"
+31 error cwd /Users/Hendrixer/Dev/personal/ang-poly
+32 error node -v v0.10.26
+33 error npm -v 1.4.3
+34 error code E404
+35 verbose exit [ 1, true ]

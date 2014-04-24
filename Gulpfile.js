@@ -10,6 +10,7 @@ var paths = {
     'app/notes/noteController.js',
     'app/notes/noteFactory.js',
     'app/notes/note.main.js',
+    'app/mainController.js',
     'app/app.js'
   ]
 };
