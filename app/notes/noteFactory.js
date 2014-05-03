@@ -1,22 +1,22 @@
 (function(angular){
   "use strict";
   angular.module('notes.factory', [])
-  .factory('NoteFactory', ['$http', function($http){
+  .factory('Note', ['$http', function($http){
     return {
-      all: function(){
+      fetch: function(){
         return $http({
           method: 'GET',
           url: '/note'
         });
       },
-      make: function(note){
+      save: function(note){
         return $http({
           method: 'POST',
           url: '/note',
           data: note
         });
       },
-      remove: function(note){
+      destroy: function(note){
         return $http({
           method: 'DELETE',
           url: '/note',

@@ -3,6 +3,7 @@ var gulp    = require('gulp'),
     refresh = require('gulp-livereload'),
     server  = require('tiny-lr')(),
     nodemon = require('gulp-nodemon'),
+    notify  = require('gulp-notify'),
     lrPort  = 35729;
 
 var paths = {
@@ -34,7 +35,8 @@ gulp.task('scripts', function(){
   return gulp.src(paths.scripts)
     .pipe(concat('main.js'))
     .pipe(gulp.dest('./app/'))
-    .pipe(refresh(server));
+    .pipe(refresh(server))
+    .pipe(notify({message: 'Concat'}));
 });
 
 
