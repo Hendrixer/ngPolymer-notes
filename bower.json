@@ -1,0 +1,23 @@
+{
+  "name": "ang-poly",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Hendrixer/ngPolymer-notes",
+  "authors": [
+    "Hendrixer <willscottmoss@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.10",
+    "bootstrap-css-only": "~3.1.1",
+    "ng-Fx": "~0.3.7"
+  }
+}

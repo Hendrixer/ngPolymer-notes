@@ -4,6 +4,7 @@
     [
       'notes.controller',
       'notes.factory',
+      'notes.directive',
       'ui.router'
     ])
   .config(function ($stateProvider, $urlRouterProvider){

@@ -9,6 +9,25 @@
 }(angular));
 (function(angular){
   "use strict";
+  angular.module('note.directive', [])
+
+  .directive('noteCard', [function(){
+    return {
+      restrict: 'EA',
+      scope: {},
+      template: '',
+      link: function(scope, el, attrs){
+        el.bind('mouseenter', function(e){
+
+        });
+      },
+      transclude: true,
+      replace: true
+    };
+  }]);
+}(angular));
+(function(angular){
+  "use strict";
   angular.module('notes.factory', [])
   .factory('Note', ['$http', function($http){
     return {
@@ -41,6 +60,7 @@
     [
       'notes.controller',
       'notes.factory',
+      'notes.directive',
       'ui.router'
     ])
   .config(function ($stateProvider, $urlRouterProvider){

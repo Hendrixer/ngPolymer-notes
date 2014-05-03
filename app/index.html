@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html ng-app='app'>
-<head>
-  <title>Angular-keep</title>
-  <link rel="stylesheet" type="text/css" href="lib/bootstrap-css-only/css/bootstrap.css">
-</head>
-<body>
-  <div ng-controller='MainController' class="container">
-    <div ui-view>
+  <head>
+    <title>Angular-keep</title>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-css-only/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/nav.css">
+  </head>
+  <body>
+    <div ng-controller='MainController'>
+      <div ui-view>
+      </div>
     </div>
-  </div>
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
-  <script src="main.js"></script>
-</body>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
